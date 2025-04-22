@@ -22,5 +22,20 @@ The use of **.bash_history** as a directory name may conflict with existing tool
 Use on the commandline:
 ```
 for bh in .bash_history/bash_history_2025-04-20_*; do echo; echo $bh; hidump $bh; done
+```
+output:
+```
+.bash_history/bash_history_2025-04-20_14:56:38_353.log
+Sun 20 Apr 2025 02:56:46 PM PDT echo $HISTFILE
+Sun 20 Apr 2025 02:57:04 PM PDT ps -e lf
+Sun 20 Apr 2025 02:57:26 PM PDT echo $OID
+Sun 20 Apr 2025 02:57:32 PM PDT echo $PID
+Sun 20 Apr 2025 02:57:41 PM PDT echo $$
+Sun 20 Apr 2025 02:57:52 PM PDT echo $HISTFILE
+Sun 20 Apr 2025 02:58:04 PM PDT dir .bash_history/
+Sun 20 Apr 2025 02:58:19 PM PDT exit
 
+.bash_history/bash_history_2025-04-20_15:01:37_737.log
+Sun 20 Apr 2025 03:02:25 PM PDT vi .bashrc
+Sun 20 Apr 2025 03:04:51 PM PDT exit
 ```
