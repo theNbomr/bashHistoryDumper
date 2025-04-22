@@ -16,3 +16,8 @@ HISTFILESIZE=2000
 HISTFILE=${HOME}/bash_history/.bash_history_$(date "+%Y-%m-%d_%H:%M:%S")_$$.log
 HISTTIMEFORMAT="%s [ %c ]"
 ```
+Use on the commandline
+```
+for bh in .bash_history/bash_history_2025-04-20_*; do echo; echo $bh; hidump $bh; done
+
+```
