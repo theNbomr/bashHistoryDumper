@@ -17,7 +17,7 @@ HISTFILE=${HOME}/bash_history/.bash_history_$(date "+%Y-%m-%d_%H:%M:%S")_$$.log
 HISTTIMEFORMAT="%s [ %c ]"
 ```
 ## Notice
-The use of **.bash_history** as a directory name may conflict with existing tools. Beware. The hidump script doesn't rely on any particualr filename format. The use of discrete bash history files is coincidental to the function of hidump.sh
+The use of **.bash_history** as a directory name may conflict with existing tools. Beware. The *hidump* script doesn't rely on any particualr filename format. The use of discrete bash history files is coincidental to the function of *hidump.sh*
 
 Use on the commandline:
 ```
