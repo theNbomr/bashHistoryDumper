@@ -1,7 +1,7 @@
 # bashHistoryDumper
 bash configs and tools for managing discrete time-date-PID history logs
 
-Compatible with bash history settings:
+Compatible with bash history settings ($HOME/.bashrc):
 ```
 # don't put duplicate lines or lines starting with space in the history.
 # See bash(1) for more options
