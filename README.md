@@ -13,7 +13,7 @@ shopt -s histappend
 # for setting history length see HISTSIZE and HISTFILESIZE in bash(1)
 HISTSIZE=1000
 HISTFILESIZE=2000
-HISTFILE=${HOME}/bash_history/.bash_history_$(date "+%Y-%m-%d_%H:%M:%S")_$$.log
+HISTFILE=${HOME}/.bash_history/bash_history_$(date "+%Y-%m-%d_%H:%M:%S")_$$.log
 HISTTIMEFORMAT="%s [ %c ]"
 ```
 ## Notice
